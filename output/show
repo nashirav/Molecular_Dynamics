@@ -1,0 +1,24 @@
+#!/usr/bin/python
+
+'''
+w PyMOLu nalezy wpisac:
+run pokaz
+'''
+
+from pymol import cmd
+import os
+import sys
+
+cmd.do("hide everything")
+
+cmd.select("lizyny","resn lys")
+cmd.select("alaniny","resn ala")
+
+cmd.do("show sphere,all")
+cmd.do("set sphere_scale,0.2")
+
+cmd.color("orange","alaniny")
+cmd.color("gray","lizyny")
+
+cmd.do("set cartoon_trace_atoms,1")
+cmd.do("show ribbon,all")
