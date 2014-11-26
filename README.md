@@ -35,6 +35,7 @@ and then in PyMOL console:
 
 <pre><code>PyMOL> run show</pre></code>
 
+<hr>
 
 [1] Dill, KA, Bromberg, S, Yue, K, Fiebig, KM, Yee, DP, Thomas, PD, Chan, HS (1995). Principles of protein folding--a perspective from simple exact models. Protein Sci., 4, 4:561-602.
 
