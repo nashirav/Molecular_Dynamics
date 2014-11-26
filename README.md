@@ -7,10 +7,10 @@ Hydrophobic-polar protein folding (HP) model is used in the study of the general
 The idea of the HP model is based on the observation that a key role in the process of folding
 has the hydrophobic effect - tendency of hydrophobic amino acids to aggregate and 'hide' from the water molecules.
 Amino acids are over the alphabet {H,P}, where H is hydrophobic and P polar amino acid
-and there are on the square lattice.
+and they are located on the square lattice.
 
 Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method that allows to 
-sampling the set of possible configurations of protein, according to any probability distribution (here Boltzmann distribution). The algorithm generates a Markov chain in which each state \displaystyle x^{t+1} depends only on the previous state \displaystyle x^t. The algorithm uses a proposal density \displaystyle Q(x'; x^t ), which depends on the current state \displaystyle x^t, to generate a new proposed sample \displaystyle x'. This proposal is "accepted" as the next value (\displaystyle x^{t+1}=x') if \displaystyle \alpha drawn from \displaystyle U(0,1) satisfies
+sampling the set of possible configurations of protein, according to any probability distribution (here the Boltzmann distribution). The algorithm generates a Markov chain in which each state x^{t+1} depends only on the previous state x^t. The algorithm uses a proposal density Q(x'; x^t ), which depends on the current state \displaystyle x^t, to generate a new proposed sample x'. This proposal is "accepted" as the next value (x^{t+1}=x') if \alpha drawn from U(0,1) satisfies.
 
 For more details see [1].
 
