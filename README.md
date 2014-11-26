@@ -9,8 +9,8 @@ has the hydrophobic effect - tendency of hydrophobic amino acids to aggregate an
 Amino acids are over the alphabet {H,P}, where H is hydrophobic and P polar amino acid
 and there are on the square lattice.
 
-Markov chain Monte Carlo (MCMC) sampling using a Metropolis-Hastings allows to 
-sampling the set of possible configurations, according to the Boltzmann distribution propability (in case of Metropolis-Hastings).
+Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method that allows to 
+sampling the set of possible configurations of protein, according to any probability distribution (here Boltzmann distribution). The algorithm generates a Markov chain in which each state \displaystyle x^{t+1} depends only on the previous state \displaystyle x^t. The algorithm uses a proposal density \displaystyle Q(x'; x^t ), which depends on the current state \displaystyle x^t, to generate a new proposed sample \displaystyle x'. This proposal is "accepted" as the next value (\displaystyle x^{t+1}=x') if \displaystyle \alpha drawn from \displaystyle U(0,1) satisfies
 
 For more details see [1].
 
