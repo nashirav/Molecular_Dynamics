@@ -94,7 +94,7 @@ def create_new_microstate(microstate,Lmacierzy):
     
     
     
-def Metropolis_Hastings_algorithm(K,T,microstateX,rotate_matrices,delta,matrix_l):
+def Metropolis_Hastings(K,T,microstateX,rotate_matrices,delta,matrix_l):
     
     """ 
         X-old microstate, Y-new microstate
@@ -120,7 +120,7 @@ def Metropolis_Hastings_algorithm(K,T,microstateX,rotate_matrices,delta,matrix_l
         prop_accept_microstateY = (-energyY/T) - math.log(n_neighborsY) - (-energyX/T) + math.log(n_neighborsX)
         random_number = math.log(random.random(1)[0]) #e.g.array([ 0.25290701])
 
-        if random_number < prop_accept_microstateY: # both numbers logarithmized
+        if random_number < prop_accept_microstateY: # both numbers are logarithmized
             #creating new state
             A.append(microstateY)
             n_of_contacts.append(n_of_contacts_Y)
