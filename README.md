@@ -10,7 +10,7 @@ Amino acids are over the alphabet {H,P}, where H is hydrophobic and P polar amin
 and they are located on the square lattice.
 
 Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method that allows to 
-sampling the set of possible configurations of protein, according to any probability distribution (here the Boltzmann distribution). The algorithm generates a Markov chain in which each state x^{t+1} depends only on the previous state x^t. The algorithm uses a proposal density Q(x'; x^t ), which depends on the current state \displaystyle x^t, to generate a new proposed sample x'. This proposal is "accepted" as the next value (x^{t+1}=x') if \alpha drawn from U(0,1) satisfies.
+sampling the set of possible configurations of protein, according to any probability distribution (here the Boltzmann distribution). The algorithm generates a Markov chain in which each state x^{t+1} depends only on the previous state x^t. The algorithm uses a proposal density Q(x'; x^t ), which depends on the current state x^t, to generate a new proposed sample x'. This proposal is "accepted" as the next value (x^{t+1}=x') if \alpha drawn from U(0,1) satisfies.
 
 For more details see [1].
 
