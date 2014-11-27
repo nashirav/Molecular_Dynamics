@@ -1,7 +1,7 @@
 Molecular_Dynamics
 ==================
 Implementation of the simulated annealing and replica exchange Monte Carlo algorithms for protein folding in the HP model
-in Python and using NumPy library.
+in Python (2.7.6) and using NumPy library (1.8.0).
 
 Hydrophobic-polar protein folding (HP) model is used in the study of the general principles of protein folding.
 The idea of the HP model is based on the observation that a key role in the process of folding
