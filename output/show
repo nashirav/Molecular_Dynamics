@@ -1,10 +1,5 @@
 #!/usr/bin/python
 
-'''
-w PyMOLu nalezy wpisac:
-run pokaz
-'''
-
 from pymol import cmd
 import os
 import sys
